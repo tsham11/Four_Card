@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+body {
+  display: flex;
+  /* width: 1440px; */
+  padding: 80px 165px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: #4d4f62;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+}
+
+.header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 275;
+  letter-spacing: 0.25px;
+}
+
+#h11 {
+  font-weight: 600;
+}
+
+.header p {
+  margin-top: 13px;
+  width: 540px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.104px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.cards {
+  width: 350px;
+  height: 250px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  overflow: hidden;
+  position: relative;
+}
+
+.text {
+  padding: 28px 0px 0px 32px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.09px;
+  width: 286px;
+  margin-top: 6px;
+}
+
+.middleC {
+  margin: 0px 30px;
+}
+
+.botM {
+  margin-bottom: 30px;
+}
+
+.line {
+  width: 350px;
+  height: 4px;
+  border-radius: 8px;
+  background: #44d3d2;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+}
+
+#col1 {
+  background: #ea5454;
+}
+
+#col2 {
+  background: #fcae4a;
+}
+
+#col3 {
+  background: #549ef2;
+}
+
+img {
+  position: absolute;
+  bottom: 32px;
+  right: 32px;
+}
+
+@media screen and (max-width:376px) {
+  body {
+    display: flex;
+    padding: 80px 40px;
+  }
+
+  .main {
+    gap: 76px;
+  }
+
+  h1 {
+    font-size: 24px;
+    letter-spacing: 0.167px;
+  }
+
+  .header p {
+    width: 311px;
+    opacity: 0.6;
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .cards {
+    width: 311px;
+    height: 222px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 25px;
+  }
+
+  .text {
+    padding: 24px 0px 0px 28px;
+  }
+
+  p {
+    width: 254px;
+    margin-top: 1px;
+  }
+
+  .middleC {
+    margin: 0px;
+  }
+
+  .botM {
+    margin-bottom: 25px;
+  }
+
+  .line {
+    width: 311px;
+    height: 3.552px;
+  }
+
+  img {
+    position: absolute;
+    bottom: 28px;
+    right: 28px;
+  }
+}
